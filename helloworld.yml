@@ -7,6 +7,6 @@
   - name: Hello World!
     shell: echo "Hi! Tower is working!
   - name: Create file
-    command: touch /path/to/file
+    command: touch /tmp/awx-ok
     args:
-      creates: /path/to/file
+      creates: /tmp/awx-ok
